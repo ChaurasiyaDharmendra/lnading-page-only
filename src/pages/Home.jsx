@@ -5,7 +5,8 @@ import TrustedBrands from "../components/trusted/TrustedBrands";
 
 import FeatureCards from "../components/features/FeatureCards";
 
-import AISection from "../components/ai/AISection";
+import AISection from "../components/ai/AiSection";
+
 
 import Integrations from "../components/integrations/Integrations";
 
@@ -34,7 +35,7 @@ function Home() {
 
       <FeatureCards />
 
-      <AISection />
+      <AiSection />
 
       <Integrations />
 
