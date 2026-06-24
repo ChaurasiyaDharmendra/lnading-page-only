@@ -5,7 +5,7 @@ import TrustedBrands from "../components/trusted/TrustedBrands";
 
 import FeatureCards from "../components/features/FeatureCards";
 
-import AISection from "../components/ai/AiSection";
+import AiSection from "../components/ai/AiSection";
 
 
 import Integrations from "../components/integrations/Integrations";
