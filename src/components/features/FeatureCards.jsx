@@ -1,74 +1,87 @@
 import "./FeatureCards.css";
-import {
-  FaShieldAlt,
-  FaChartLine,
-  FaCloud,
-  FaRobot,
-} from "react-icons/fa";
 
 function FeatureCards() {
-  const features = [
-    {
-      icon: <FaShieldAlt />,
-      title: "Security Monitoring",
-      description:
-        "Detect, investigate and respond to threats faster with AI-powered security analytics.",
-    },
-    {
-      icon: <FaChartLine />,
-      title: "Observability",
-      description:
-        "Monitor infrastructure, applications and logs in real time across your ecosystem.",
-    },
-    {
-      icon: <FaCloud />,
-      title: "Cloud Analytics",
-      description:
-        "Gain complete visibility into multi-cloud environments and workloads.",
-    },
-    {
-      icon: <FaRobot />,
-      title: "AI Automation",
-      description:
-        "Automate workflows, incident response and operational tasks using AI.",
-    },
-  ];
-
   return (
     <section className="feature-section">
 
-      <div className="feature-header">
-        <span className="feature-badge">
-          PLATFORM CAPABILITIES
-        </span>
+      <h2>
+        When disruption isn't an option
+      </h2>
 
-        <h2>
-          Everything You Need To Secure,
-          Monitor And Scale
-        </h2>
+      <p>
+        Trust the unified platform for security and observability at massive scale.
+      </p>
 
-        <p>
-          One unified platform for security,
-          observability and AI-powered operations.
-        </p>
-      </div>
+      <div className="feature-row">
 
-      <div className="feature-grid">
-        {features.map((item, index) => (
-          <div className="feature-card" key={index}>
-            <div className="feature-icon">
-              {item.icon}
-            </div>
+        <div className="feature-card">
 
-            <h3>{item.title}</h3>
+            <img
+  src="/images/Digital resilience platform.svg"
+  alt="Digital resilience platform"
+  className="feature-icon"
+/>
 
-            <p>{item.description}</p>
+          <h3>Digital resilience platform</h3>
 
-            <button>
-              Learn More →
-            </button>
-          </div>
-        ))}
+          <p>
+            Unify cross-domain machine data at petabyte scale into
+            contextualized trusted intelligence. Give teams and AI
+            a complete foundation to preempt issues and activate
+            AgenticOps.
+          </p>
+
+          <button>
+            Explore Splunk Platform
+          </button>
+
+        </div>
+
+        <div className="feature-card">
+
+          <img
+  src="/images/Agentic SOC.svg"
+  alt="Agentic SOC"
+  className="feature-icon"
+/>
+
+          <h3>Agentic SOC</h3>
+
+          <p>
+            Unify threat detection, investigation and response
+            with AI and built-in threat intelligence.
+            Use AI to anticipate, find and stop emerging threats
+            at machine speed.
+          </p>
+
+          <button>
+            Explore Splunk Security
+          </button>
+
+        </div>
+
+        <div className="feature-card">
+
+              <img
+  src="/images/Agentic observability.svg"
+  alt="Agentic observability"
+  className="feature-icon"
+/>
+
+          <h3>Agentic observability</h3>
+
+          <p>
+            See the business impact of every performance problem
+            across applications, infrastructure and AI workloads.
+            Use AI to predict, investigate and resolve issues faster.
+          </p>
+
+          <button>
+            Explore Splunk Observability
+          </button>
+
+        </div>
+
       </div>
 
     </section>

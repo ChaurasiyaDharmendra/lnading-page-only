@@ -1,90 +1,79 @@
-.integrations {
-  padding: 120px 8%;
-  background: linear-gradient(
-    180deg,
-    #0a1024,
-    #11142a
-  );
+.integrations{
+    background:#0b1025;
+    color:white;
+    padding:80px 0;
+    text-align:center;
 }
 
-.integrations-container {
-  max-width: 1400px;
-  margin: auto;
-  text-align: center;
+.integrations-container{
+    width:90%;
+    margin:auto;
 }
 
-.integrations-badge {
-  display: inline-block;
-  padding: 10px 20px;
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 999px;
-  color: #ff7a18;
-  font-size: 12px;
-  letter-spacing: 2px;
+.integrations h2{
+    font-size:48px;
+    margin-bottom:20px;
 }
 
-.integrations h2 {
-  color: white;
-  font-size: 58px;
-  line-height: 1.1;
-  margin-top: 25px;
+.integrations p{
+    font-size:18px;
+    color:#c7cce2;
+    margin-bottom:50px;
 }
 
-.integrations p {
-  color: #aab4d0;
-  font-size: 18px;
-  max-width: 700px;
-  margin: 25px auto 70px;
-  line-height: 1.8;
+.integration-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap:25px;
 }
 
-.integration-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
+.integration-card{
+    background:#202a4b;
+    border-radius:12px;
+    width:220px;
+    height:150px;
+    margin:auto;
+    padding:20px;
 }
 
-.integration-card {
-  background: #16203d;
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 22px;
-  padding: 40px;
-  transition: 0.4s;
+.integration-image{
+    width:55px;
+    height:55px;
+    display:block;
+    margin:10px auto 20px;
+    object-fit:contain;
 }
 
-.integration-card:hover {
-  transform: translateY(-10px);
-  border-color: #ff7a18;
-  box-shadow: 0 0 30px rgba(255,122,24,0.25);
+.integration-card h3{
+    font-size:17px;
+    margin:0;
+    font-weight:600;
 }
 
-.integration-icon {
-  font-size: 45px;
-  color: #ff7a18;
-  margin-bottom: 20px;
+@media(max-width:900px){
+
+    .integration-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
 }
 
-.integration-card h3 {
-  color: white;
-  font-size: 22px;
-}
+@media(max-width:600px){
 
-@media (max-width: 992px) {
-  .integration-grid {
-    grid-template-columns: repeat(2,1fr);
-  }
+    .integration-grid{
+        grid-template-columns:1fr;
+    }
 
-  .integrations h2 {
-    font-size: 42px;
-  }
-}
+    .integrations h2{
+        font-size:34px;
+    }
 
-@media (max-width: 768px) {
-  .integration-grid {
-    grid-template-columns: 1fr;
-  }
+    .integrations p{
+        font-size:16px;
+    }
 
-  .integrations h2 {
-    font-size: 34px;
-  }
+    .integration-card{
+        width:220px;
+    }
+
 }

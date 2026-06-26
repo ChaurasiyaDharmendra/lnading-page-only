@@ -1,77 +1,42 @@
 import "./AiSection.css";
-import { FaRobot, FaBrain, FaBolt } from "react-icons/fa";
 
 function AiSection() {
   return (
     <section className="ai-section">
 
       <div className="ai-left">
-
-        <span className="ai-badge">
-          AI POWERED SECURITY
-        </span>
-
-        <h2>
-          Accelerate Security
-          And Operations
-          With AI
-        </h2>
-
-        <p>
-          Leverage advanced AI models to
-          detect threats, automate workflows,
-          reduce alert fatigue and improve
-          operational efficiency.
-        </p>
-
-        <div className="ai-features">
-
-          <div className="ai-feature">
-            <FaBrain />
-            <span>Threat Intelligence</span>
-          </div>
-
-          <div className="ai-feature">
-            <FaBolt />
-            <span>Workflow Automation</span>
-          </div>
-
-          <div className="ai-feature">
-            <FaRobot />
-            <span>AI Copilot</span>
-          </div>
-
-        </div>
-
+        <img src="/images/ai-security.png" alt="AI Security" />
       </div>
 
       <div className="ai-right">
 
-        <div className="ai-dashboard">
+        <span className="ai-tag">
+          AI SECURITY
+        </span>
 
-          <div className="ai-glow"></div>
+        <h2>
+          AI built for
+          <br />
+          observability and
+          <br />
+          security
+        </h2>
 
-          <div className="ai-card top-card">
-            <h4>AI Threat Score</h4>
-            <span>97%</span>
-          </div>
+        <p>
+          Get complete visibility across your infrastructure with
+          AI-powered monitoring and security analytics. Detect
+          threats faster, reduce operational effort and improve
+          performance using one intelligent platform.
+        </p>
 
-          <div className="ai-card middle-card">
-            <h4>Security Events</h4>
-            <div className="bars">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
+        <div className="ai-buttons">
+          <button className="primary-btn">
+            Discover AI
+          </button>
 
-          <div className="ai-card bottom-card">
-            <h4>Automation Success</h4>
-            <span>+84%</span>
-          </div>
-
+          <button className="secondary-btn">
+            Learn More
+          </button>
         </div>
 
       </div>

@@ -1,76 +1,76 @@
 import "./Reviews.css";
 
 function Reviews() {
-  const reviews = [
-    {
-      name: "Michael Carter",
-      role: "Security Director",
-      company: "Global Tech",
-      text: "Splunk helped us reduce incident response times dramatically. The visibility across our infrastructure is unmatched.",
-    },
-    {
-      name: "Sarah Williams",
-      role: "Cloud Architect",
-      company: "FinServe",
-      text: "The AI-powered analytics helped our team identify critical issues before they impacted customers.",
-    },
-    {
-      name: "David Johnson",
-      role: "SOC Manager",
-      company: "Enterprise Corp",
-      text: "A single platform for security and observability has simplified our operations and improved efficiency.",
-    },
-  ];
-
   return (
     <section className="reviews">
-      <div className="reviews-container">
 
-        <span className="reviews-badge">
-          CUSTOMER REVIEWS
-        </span>
+      <h2>
+        What Customers
+        <br />
+        Are Saying
+      </h2>
 
-        <h2>
-          What Customers
-          <br />
-          Are Saying
-        </h2>
+      <p>
+        Trusted by organizations worldwide to deliver security,
+        observability and operational excellence.
+      </p>
 
-        <p className="reviews-subtitle">
-          Trusted by organizations worldwide to deliver
-          security, observability and operational excellence.
-        </p>
+      <div className="reviews-row">
 
-        <div className="reviews-grid">
-          {reviews.map((review, index) => (
-            <div className="review-card" key={index}>
+        <div className="review-card">
 
-              <div className="stars">
-                ★★★★★
-              </div>
+          <h3>★★★★★</h3>
 
-              <p className="review-text">
-                "{review.text}"
-              </p>
+          <p>
+            "Splunk helped us reduce incident response times
+            dramatically. The visibility across our infrastructure
+            is unmatched."
+          </p>
 
-              <div className="review-user">
-                <div className="avatar">
-                  {review.name.charAt(0)}
-                </div>
+          <h4>Michael Carter</h4>
 
-                <div>
-                  <h4>{review.name}</h4>
-                  <span>
-                    {review.role} • {review.company}
-                  </span>
-                </div>
-              </div>
+          <span>
+            Security Director • Global Tech
+          </span>
 
-            </div>
-          ))}
+        </div>
+
+        <div className="review-card">
+
+          <h3>★★★★★</h3>
+
+          <p>
+            "The AI-powered analytics helped our team identify
+            critical issues before they impacted customers."
+          </p>
+
+          <h4>Sarah Williams</h4>
+
+          <span>
+            Cloud Architect • FinServe
+          </span>
+
+        </div>
+
+        <div className="review-card">
+
+          <h3>★★★★★</h3>
+
+          <p>
+            "A single platform for security and observability
+            has simplified our operations and improved efficiency."
+          </p>
+
+          <h4>David Johnson</h4>
+
+          <span>
+            SOC Manager • Enterprise Corp
+          </span>
+
         </div>
 
       </div>
+
     </section>
   );
 }

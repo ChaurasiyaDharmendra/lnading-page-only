@@ -1,19 +1,21 @@
-import { platformMenu } from "../../data/navbarData";
-
 function PlatformMenu() {
   return (
     <div className="mega-menu">
-      {platformMenu.map((section, index) => (
-        <div key={index} className="menu-column">
-          <h4>{section.title}</h4>
 
-          {section.links.map((link, i) => (
-            <a href="/" key={i}>
-              {link}
-            </a>
-          ))}
-        </div>
-      ))}
+      <div className="menu-column">
+
+        <h4>Platform</h4>
+
+        <a href="/">Enterprise Security</a>
+
+        <a href="/">Cloud Security</a>
+
+        <a href="/">SIEM</a>
+
+        <a href="/">SOAR</a>
+
+      </div>
+
     </div>
   );
 }

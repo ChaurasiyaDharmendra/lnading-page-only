@@ -1,68 +1,62 @@
 import "./CustomerStory.css";
 
 function CustomerStories() {
+
   return (
     <section className="stories">
-      <div className="stories-container">
 
-        <span className="stories-badge">
-          CUSTOMER STORIES
-        </span>
+      <h2>Trusted By Global Industry Leaders</h2>
 
-        <h2>
-          Trusted By Global
+      <div className="story-box">
+
+        <div className="story-text">
+
+          <p>
+            "Splunk helped our team improve security monitoring,
+            reduce response time and gain better visibility across
+            our cloud infrastructure."
+          </p>
+
+          <h3>Sarah Johnson</h3>
+
+          <span>CISO, Global Financial Services</span>
+
           <br />
-          Industry Leaders
-        </h2>
+          <br />
 
-        <div className="story-card">
+          <button>Read Full Story</button>
 
-          <div className="story-left">
-            <p className="quote">
-              "Splunk transformed our security operations.
-              We reduced incident response time by 72% and
-              improved visibility across our entire cloud infrastructure."
-            </p>
+        </div>
 
-            <div className="company-info">
-              <h3>Sarah Johnson</h3>
-              <p>CISO, Global Financial Services</p>
-            </div>
+        <div className="story-data">
 
-            <button className="story-btn">
-              Read Full Story →
-            </button>
+          <div className="box">
+            <h3>72%</h3>
+            <p>Faster Response</p>
           </div>
 
-          <div className="story-right">
+          <div className="box">
+            <h3>99.9%</h3>
+            <p>System Uptime</p>
+          </div>
 
-            <div className="metric-card">
-              <h3>72%</h3>
-              <p>Faster Response</p>
-            </div>
+          <div className="box">
+            <h3>500+</h3>
+            <p>Apps Monitored</p>
+          </div>
 
-            <div className="metric-card">
-              <h3>99.9%</h3>
-              <p>System Uptime</p>
-            </div>
-
-            <div className="metric-card">
-              <h3>500+</h3>
-              <p>Apps Monitored</p>
-            </div>
-
-            <div className="metric-card">
-              <h3>24/7</h3>
-              <p>Visibility</p>
-            </div>
-
+          <div className="box">
+            <h3>24/7</h3>
+            <p>Visibility</p>
           </div>
 
         </div>
 
       </div>
+
     </section>
   );
+
 }
 
 export default CustomerStories;

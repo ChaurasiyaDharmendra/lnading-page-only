@@ -3,6 +3,7 @@ import "./Research.css";
 function ResearchSection() {
   return (
     <section className="research">
+
       <div className="research-container">
 
         <div className="research-left">
@@ -12,69 +13,40 @@ function ResearchSection() {
           </span>
 
           <h2>
-            Gain Real-Time
+            Monitor Your
             <br />
-            Visibility Across
+            Infrastructure
             <br />
-            Your Enterprise
+            With Confidence
           </h2>
 
           <p>
-            Monitor infrastructure, applications, logs and
-            security events from one unified platform.
-            Turn data into actionable insights with
-            AI-powered analytics.
+            Keep track of servers, applications and cloud
+            resources from one place. Quickly identify issues,
+            monitor performance and maintain system reliability.
           </p>
 
           <ul className="research-list">
-            <li>✓ Real-time monitoring</li>
-            <li>✓ Predictive analytics</li>
-            <li>✓ Threat detection</li>
-            <li>✓ Unified observability</li>
+            <li>✓ Live Monitoring</li>
+            <li>✓ Performance Reports</li>
+            <li>✓ Security Alerts</li>
+            <li>✓ Cloud Visibility</li>
           </ul>
 
         </div>
 
         <div className="research-right">
 
-          <div className="analytics-card">
-
-            <div className="analytics-header">
-              Security Analytics
-            </div>
-
-            <div className="analytics-chart">
-
-              <div className="bar b1"></div>
-              <div className="bar b2"></div>
-              <div className="bar b3"></div>
-              <div className="bar b4"></div>
-              <div className="bar b5"></div>
-              <div className="bar b6"></div>
-              <div className="bar b7"></div>
-              <div className="bar b8"></div>
-
-            </div>
-
-          </div>
-
-          <div className="metrics-row">
-
-            <div className="metric-box">
-              <h3>99.9%</h3>
-              <span>System Uptime</span>
-            </div>
-
-            <div className="metric-box">
-              <h3>500+</h3>
-              <span>Apps Monitored</span>
-            </div>
-
-          </div>
+          <img
+            src="/images/Security Analytics.png"
+            alt="Security Analytics"
+            className="research-image"
+          />
 
         </div>
 
       </div>
+
     </section>
   );
 }

@@ -3,35 +3,39 @@ import "./CTA.css";
 function CTA() {
   return (
     <section className="cta">
-      <div className="cta-container">
 
-        <span className="cta-badge">
-          GET STARTED
+      <div className="cta-content">
+
+        <span className="cta-tag">
+          GET CONNECTED
         </span>
 
         <h2>
-          Ready To Transform
+          Start Your Journey
           <br />
-          Your Security Operations?
+          With Splunk
         </h2>
 
         <p>
-          Join thousands of organizations using AI-powered
-          security and observability solutions to protect,
-          monitor and optimize their business.
+          Protect your business with modern security, observability and AI-powered
+          operations. Connect with our experts and discover how Splunk helps teams
+          detect, investigate and respond faster.
         </p>
 
         <div className="cta-buttons">
+
           <button className="cta-primary">
-            Start Free Trial
+            Contact Sales
           </button>
 
           <button className="cta-secondary">
-            Contact Sales
+            Explore Platform
           </button>
+
         </div>
 
       </div>
+
     </section>
   );
 }

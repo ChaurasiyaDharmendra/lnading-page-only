@@ -1,19 +1,21 @@
-import { supportMenu } from "../../data/navbarData";
-
 function SupportMenu() {
   return (
     <div className="mega-menu">
-      {supportMenu.map((section, index) => (
-        <div key={index} className="menu-column">
-          <h4>{section.title}</h4>
 
-          {section.links.map((link, i) => (
-            <a href="/" key={i}>
-              {link}
-            </a>
-          ))}
-        </div>
-      ))}
+      <div className="menu-column">
+
+        <h4>Support</h4>
+
+        <a href="/">Help Center</a>
+
+        <a href="/">Contact Support</a>
+
+        <a href="/">Community</a>
+
+        <a href="/">Support Portal</a>
+
+      </div>
+
     </div>
   );
 }

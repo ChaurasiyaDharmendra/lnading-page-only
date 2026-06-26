@@ -1,19 +1,21 @@
-import { industriesMenu } from "../../data/navbarData";
-
 function IndustriesMenu() {
   return (
     <div className="mega-menu">
-      {industriesMenu.map((section, index) => (
-        <div key={index} className="menu-column">
-          <h4>{section.title}</h4>
 
-          {section.links.map((link, i) => (
-            <a href="/" key={i}>
-              {link}
-            </a>
-          ))}
-        </div>
-      ))}
+      <div className="menu-column">
+
+        <h4>Industries</h4>
+
+        <a href="/">Financial Services</a>
+
+        <a href="/">Healthcare</a>
+
+        <a href="/">Retail</a>
+
+        <a href="/">Manufacturing</a>
+
+      </div>
+
     </div>
   );
 }

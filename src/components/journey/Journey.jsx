@@ -1,63 +1,68 @@
 import "./Journey.css";
 
 function Journey() {
-  const steps = [
-    {
-      number: "01",
-      title: "Collect Data",
-      desc: "Ingest logs, metrics, traces and events from every source.",
-    },
-    {
-      number: "02",
-      title: "Analyze",
-      desc: "Use AI-powered analytics to detect patterns and anomalies.",
-    },
-    {
-      number: "03",
-      title: "Respond",
-      desc: "Automate workflows and accelerate incident resolution.",
-    },
-    {
-      number: "04",
-      title: "Optimize",
-      desc: "Continuously improve security and operational performance.",
-    },
-  ];
-
   return (
     <section className="journey">
+
       <div className="journey-container">
 
-        <span className="journey-badge">
-          PLATFORM JOURNEY
-        </span>
-
-        <h2>
-          From Data To
-          <br />
-          Actionable Insights
-        </h2>
-
-        <p className="journey-subtitle">
-          Transform raw machine data into business outcomes
-          with a unified security and observability platform.
+        <p className="journey-tag">
+          HOW IT WORKS
         </p>
 
-        <div className="journey-timeline">
-          {steps.map((step, index) => (
-            <div className="journey-card" key={index}>
-              <div className="journey-number">
-                {step.number}
-              </div>
+        <h2>
+          Simple Security
+          <br />
+          Workflow
+        </h2>
 
-              <h3>{step.title}</h3>
+        <p className="journey-text">
+          Collect data, analyze it, respond to issues
+          and improve your system performance.
+        </p>
 
-              <p>{step.desc}</p>
-            </div>
-          ))}
+        <div className="journey-list">
+
+          <div className="journey-box">
+            <div className="number">01</div>
+            <h3>Collect Data</h3>
+            <p>
+              Collect logs, metrics and events from
+              all your systems.
+            </p>
+          </div>
+
+          <div className="journey-box">
+            <div className="number">02</div>
+            <h3>Analyze</h3>
+            <p>
+              Review the collected data and identify
+              important issues.
+            </p>
+          </div>
+
+          <div className="journey-box">
+            <div className="number">03</div>
+            <h3>Respond</h3>
+            <p>
+              Take quick action using alerts and
+              security tools.
+            </p>
+          </div>
+
+          <div className="journey-box">
+            <div className="number">04</div>
+            <h3>Improve</h3>
+            <p>
+              Monitor results and improve overall
+              system performance.
+            </p>
+          </div>
+
         </div>
 
       </div>
+
     </section>
   );
 }
