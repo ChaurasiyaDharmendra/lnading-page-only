@@ -4,32 +4,39 @@ function TrustedBrands() {
   return (
     <section className="trusted">
 
-      <h2>Trusted by leaders worldwide</h2>
+      <span className="trusted-tag">
+        Trusted Across Modern Enterprises
+      </span>
+
+      <h2>
+        Built for organizations that rely on
+        <span> real-time observability.</span>
+      </h2>
 
       <div className="brands-row">
 
         <div className="brand-item">
-          carhartt
+          CloudNova
         </div>
 
         <div className="brand-item">
-          U.S. Department of Defense
+          Nexora Systems
         </div>
 
         <div className="brand-item">
-          UNITED
+          Vertex Labs
         </div>
 
         <div className="brand-item">
-          PUMA
+          DataSphere
         </div>
 
         <div className="brand-item">
-          Coca-Cola
+          SkyGrid
         </div>
 
         <div className="brand-item">
-          vodafone
+          CoreStack
         </div>
 
       </div>

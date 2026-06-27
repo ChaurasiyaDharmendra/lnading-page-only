@@ -1,3 +1,4 @@
+
 import "./CTA.css";
 
 function CTA() {
@@ -7,29 +8,29 @@ function CTA() {
       <div className="cta-content">
 
         <span className="cta-tag">
-          GET CONNECTED
+          GET STARTED
         </span>
 
         <h2>
-          Start Your Journey
+          Build Smarter Operations
           <br />
-          With Splunk
+          With ASLIM
         </h2>
 
         <p>
-          Protect your business with modern security, observability and AI-powered
-          operations. Connect with our experts and discover how Splunk helps teams
-          detect, investigate and respond faster.
+          Monitor your applications, infrastructure and system
+          performance from one platform. Get better visibility,
+          faster insights and reliable operations with ASLIM.
         </p>
 
         <div className="cta-buttons">
 
           <button className="cta-primary">
-            Contact Sales
+            Get Started
           </button>
 
           <button className="cta-secondary">
-            Explore Platform
+            Request Demo
           </button>
 
         </div>
@@ -41,3 +42,4 @@ function CTA() {
 }
 
 export default CTA;
+

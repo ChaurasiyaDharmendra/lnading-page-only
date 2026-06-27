@@ -1,58 +1,117 @@
 .hero {
-    width: 90%;
-    margin: auto;
-    padding: 100px 0;
-
-    display: flex;
-    align-items: center;
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+  padding: 80px 8%;
+  background: #07111f;
 }
 
 .hero-left {
-    width: 45%;
-}
-
-.hero-right {
-    width: 55%;
-    text-align: center;
-    
-
+  flex: 1;
 }
 
 .hero-tag {
-    display: inline-block;
-    color: orange;
-    border: 1px solid orange;
-    padding: 12px 20px;
-    margin-bottom: 30px;
+  display: inline-block;
+  padding: 10px 18px;
+  border: 1px solid #1fb6ff;
+  color: #1fb6ff;
+  border-radius: 30px;
+  font-size: 14px;
+  margin-bottom: 25px;
 }
 
 .hero-left h1 {
-    color: white;
-    font-size: 70px;
-    font-weight: bold;
-    line-height: 80px;
-    margin-bottom: 30px;
+  font-size: 60px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-bottom: 25px;
 }
 
 .hero-left p {
-    color: white;
-    font-size: 20px;
-    margin-bottom: 40px;
+  font-size: 19px;
+  line-height: 1.8;
+  color: #c6d2df;
+  max-width: 600px;
+  margin-bottom: 35px;
 }
 
 .hero-buttons {
-    margin-top: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .primary-btn {
-    background-color: white;
-    color: black;
-    border: none;
-    padding: 15px 35px;
-    font-size: 17px;
-    border-radius: 30px;
+  padding: 16px 34px;
+  background: #00b894;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  background: #009b7b;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-dashboard {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 992px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 6%;
+  }
+
+  .hero-left h1 {
+    font-size: 45px;
+  }
+
+  .hero-left p {
+    margin: 0 auto 30px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-dashboard {
+    max-width: 500px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-left h1 {
+    font-size: 34px;
+  }
+
+  .hero-left p {
+    font-size: 16px;
+  }
+
+  .primary-btn {
     width: 100%;
+  }
+
+  .hero-dashboard {
+    max-width: 100%;
+  }
 }

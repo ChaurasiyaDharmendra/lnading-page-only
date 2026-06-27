@@ -1,3 +1,4 @@
+
 import "./Reviews.css";
 
 function Reviews() {
@@ -5,14 +6,14 @@ function Reviews() {
     <section className="reviews">
 
       <h2>
-        What Customers
+        What Our
         <br />
-        Are Saying
+        Customers Say
       </h2>
 
       <p>
-        Trusted by organizations worldwide to deliver security,
-        observability and operational excellence.
+        See how businesses use our platform to improve system
+        monitoring, security, and overall performance.
       </p>
 
       <div className="reviews-row">
@@ -22,15 +23,15 @@ function Reviews() {
           <h3>★★★★★</h3>
 
           <p>
-            "Splunk helped us reduce incident response times
-            dramatically. The visibility across our infrastructure
-            is unmatched."
+            "Our team can now monitor applications and system
+            performance from one place. It has made daily
+            operations much easier."
           </p>
 
-          <h4>Michael Carter</h4>
+          <h4>Dharmendra Chaurasiya</h4>
 
           <span>
-            Security Director • Global Tech
+            Head of IT Operations
           </span>
 
         </div>
@@ -40,14 +41,15 @@ function Reviews() {
           <h3>★★★★★</h3>
 
           <p>
-            "The AI-powered analytics helped our team identify
-            critical issues before they impacted customers."
+            "The platform helps us identify issues early and
+            keeps our cloud services running smoothly without
+            unnecessary downtime."
           </p>
 
-          <h4>Sarah Williams</h4>
+          <h4>Neha Sharma</h4>
 
           <span>
-            Cloud Architect • FinServe
+            Cloud Operations Lead
           </span>
 
         </div>
@@ -57,14 +59,15 @@ function Reviews() {
           <h3>★★★★★</h3>
 
           <p>
-            "A single platform for security and observability
-            has simplified our operations and improved efficiency."
+            "The dashboard is simple to use and gives our team
+            complete visibility of applications, infrastructure
+            and system health."
           </p>
 
-          <h4>David Johnson</h4>
+          <h4>Rahul Mehta</h4>
 
           <span>
-            SOC Manager • Enterprise Corp
+            Infrastructure Manager
           </span>
 
         </div>
@@ -76,3 +79,4 @@ function Reviews() {
 }
 
 export default Reviews;
+

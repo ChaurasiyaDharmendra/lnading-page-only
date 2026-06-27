@@ -1,30 +1,30 @@
 import "./CustomerStory.css";
 
 function CustomerStories() {
-
   return (
     <section className="stories">
 
-      <h2>Trusted By Global Industry Leaders</h2>
+      <h2>Trusted by Teams Across Different Industries</h2>
 
       <div className="story-box">
 
         <div className="story-text">
 
           <p>
-            "Splunk helped our team improve security monitoring,
-            reduce response time and gain better visibility across
-            our cloud infrastructure."
+            "This platform has made it easier for our team to monitor
+            applications, track system performance, and respond to
+            issues quickly. Having everything in one place has improved
+            our daily operations and reduced downtime."
           </p>
 
-          <h3>Sarah Johnson</h3>
+          <h3>Dharmendra Chaurasiya</h3>
 
-          <span>CISO, Global Financial Services</span>
+          <span>Head of IT Operations</span>
 
           <br />
           <br />
 
-          <button>Read Full Story</button>
+          <button>Read Case Study</button>
 
         </div>
 
@@ -32,22 +32,22 @@ function CustomerStories() {
 
           <div className="box">
             <h3>72%</h3>
-            <p>Faster Response</p>
+            <p>Faster Issue Resolution</p>
           </div>
 
           <div className="box">
             <h3>99.9%</h3>
-            <p>System Uptime</p>
+            <p>Service Availability</p>
           </div>
 
           <div className="box">
             <h3>500+</h3>
-            <p>Apps Monitored</p>
+            <p>Systems Monitored</p>
           </div>
 
           <div className="box">
             <h3>24/7</h3>
-            <p>Visibility</p>
+            <p>Platform Monitoring</p>
           </div>
 
         </div>
@@ -56,7 +56,6 @@ function CustomerStories() {
 
     </section>
   );
-
 }
 
 export default CustomerStories;

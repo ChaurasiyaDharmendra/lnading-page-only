@@ -1,34 +1,29 @@
-import Navbar from "./components/navbar/Navbar";
-import Hero from "./components/hero/Hero";
-import TrustedBrands from "./components/trusted/TrustedBrands";
-import FeatureCards from "./components/features/FeatureCards";
-import AiSection from "./components/ai/AiSection";
-import Integrations from "./components/integrations/Integrations";
-import CustomerStories from "./components/stories/CustomerStory";
-import UseCases from "./components/usecases/UseCases";
-import Research from "./components/research/Research";
-import Journey from "./components/journey/Journey";
-import Reviews from "./components/reviews/Reviews";
-import CTA from "./components/cta/CTA";
-import Footer from "./components/footer/Footer";
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./components/pages/Home";
+import Signup from "./components/auth/Signup";
+import Login from "./components/auth/Login";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <TrustedBrands />
-      <FeatureCards />
-      <AiSection />
-      <Integrations />
-      <CustomerStories />
-      <UseCases />
-      <Research />
-      <Journey />
-      <Reviews />
-      <CTA />
-      <Footer />
-    </>
+    <Routes>
+
+      <Route
+        path="/"
+        element={<Home />}
+      />
+
+      <Route
+        path="/signup"
+        element={<Signup />}
+      />
+
+      <Route
+        path="/login"
+        element={<Login />}
+      />
+
+    </Routes>
   );
 }
 

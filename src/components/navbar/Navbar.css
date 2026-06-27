@@ -44,3 +44,15 @@
 .contact-btn:hover{
     background-color:darkorange;
 }
+.nav-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item a:hover {
+  color: #fff;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}

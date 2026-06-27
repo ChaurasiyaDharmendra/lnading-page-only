@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -7,7 +8,7 @@ function Navbar() {
       <div className="navbar-container">
 
         <div className="logo">
-          Splunk
+          ASLIM
         </div>
 
         <nav className="nav-links">
@@ -36,8 +37,13 @@ function Navbar() {
             <span>Support</span>
           </div>
 
+          
           <div className="nav-item">
-            <span>Login</span>
+            <Link to="/signup">Sign Up</Link>
+          </div>
+
+          <div className="nav-item">
+            <Link to="/login">Login</Link>
           </div>
 
         </nav>

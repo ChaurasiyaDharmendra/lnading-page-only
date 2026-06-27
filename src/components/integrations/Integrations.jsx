@@ -1,43 +1,65 @@
 import "./Integrations.css";
 
 function Integrations() {
-
-  const integrations = [
-    { image: "/images/github.png", name: "GitHub" },
-    { image: "/images/aws.png", name: "AWS" },
-    { image: "/images/azure.png", name: "Azure" },
-    { image: "/images/googlecloude.png", name: "Google Cloud" },
-    { image: "/images/kubernetes.png", name: "Kubernetes" },
-    { image: "/images/docker.png", name: "Docker" },
-    { image: "/images/slcak.png", name: "Slack" },
-    { image: "/images/zira.png", name: "Jira" },
-  ];
-
   return (
     <section className="integrations">
 
-      <h2>Connect Your Entire Technology Stack</h2>
+      <h2>Works with Your Favorite Tools</h2>
 
       <p>
-        Integrate seamlessly with cloud providers, DevOps tools,
-        collaboration platforms and enterprise applications.
+        Easily connect cloud platforms, DevOps tools and
+        collaboration applications from one place.
       </p>
 
       <div className="integration-grid">
 
-        {integrations.map((item, index) => (
-          <div className="integration-card" key={index}>
+        <div className="integration-card">
+          <img src="/images/github.png" alt="GitHub" />
+          <h3>GitHub</h3>
+          <p>Manage source code</p>
+        </div>
 
-            <img
-              src={item.image}
-              alt={item.name}
-              className="integration-image"
-            />
+        <div className="integration-card">
+          <img src="/images/aws.png" alt="AWS" />
+          <h3>AWS</h3>
+          <p>Cloud platform</p>
+        </div>
 
-            <h3>{item.name}</h3>
+        <div className="integration-card">
+          <img src="/images/azure.png" alt="Azure" />
+          <h3>Azure</h3>
+          <p>Cloud services</p>
+        </div>
 
-          </div>
-        ))}
+        <div className="integration-card">
+          <img src="/images/googlecloude.png" alt="Google Cloud" />
+          <h3>Google Cloud</h3>
+          <p>Infrastructure</p>
+        </div>
+
+        <div className="integration-card">
+          <img src="/images/kubernetes.png" alt="Kubernetes" />
+          <h3>Kubernetes</h3>
+          <p>Container platform</p>
+        </div>
+
+        <div className="integration-card">
+          <img src="/images/docker.png" alt="Docker" />
+          <h3>Docker</h3>
+          <p>Application containers</p>
+        </div>
+
+        <div className="integration-card">
+          <img src="/images/slcak.png" alt="Slack" />
+          <h3>Slack</h3>
+          <p>Team communication</p>
+        </div>
+
+        <div className="integration-card">
+          <img src="/images/zira.png" alt="Jira" />
+          <h3>Jira</h3>
+          <p>Project tracking</p>
+        </div>
 
       </div>
 

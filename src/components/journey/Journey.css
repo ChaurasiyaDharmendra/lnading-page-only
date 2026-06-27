@@ -1,10 +1,11 @@
 .journey{
-    padding:80px 0;
-    background:#0b1026;
+    width:100%;
+    background:#0b1324;
+    padding:90px 8%;
 }
 
 .journey-container{
-    width:90%;
+    max-width:1200px;
     margin:auto;
     text-align:center;
 }
@@ -12,77 +13,64 @@
 .journey-tag{
     display:inline-block;
     padding:8px 18px;
-    border:1px solid #2c3558;
+    border:1px solid #3a4b70;
     border-radius:20px;
-    color:#ff7b22;
-    font-size:13px;
+    color:#ff8a00;
+    font-size:14px;
     margin-bottom:20px;
 }
 
 .journey h2{
     color:#fff;
-    font-size:55px;
+    font-size:58px;
+    line-height:1.2;
     margin-bottom:20px;
 }
 
 .journey-text{
-    color:#b7bfd6;
+    width:700px;
+    margin:0 auto;
+    color:#c6d1e5;
     font-size:18px;
-    max-width:650px;
-    margin:0 auto 60px;
-    line-height:30px;
+    line-height:1.8;
 }
 
 .journey-list{
-    display:flex;
-    justify-content:center;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
     gap:25px;
-    flex-wrap:wrap;
+    margin-top:70px;
 }
 
 .journey-box{
-    width:260px;
-    background:#20294d;
+    background:#222d4c;
+    padding:35px 28px;
     border-radius:12px;
-    padding:30px 25px;
     text-align:left;
 }
 
 .number{
     width:55px;
     height:55px;
-    background:#ff7b22;
+    background:#ff8a00;
     color:#fff;
     font-size:24px;
     font-weight:bold;
     border-radius:10px;
     display:flex;
-    align-items:center;
     justify-content:center;
-    margin-bottom:20px;
+    align-items:center;
+    margin-bottom:25px;
 }
 
 .journey-box h3{
     color:#fff;
     font-size:28px;
-    margin-bottom:15px;
+    margin-bottom:18px;
 }
 
 .journey-box p{
-    color:#c2c9df;
-    font-size:16px;
-    line-height:28px;
-}
-
-@media(max-width:900px){
-
-    .journey h2{
-        font-size:40px;
-    }
-
-    .journey-box{
-        width:100%;
-        max-width:320px;
-    }
-
+    color:#c6d1e5;
+    font-size:17px;
+    line-height:1.8;
 }

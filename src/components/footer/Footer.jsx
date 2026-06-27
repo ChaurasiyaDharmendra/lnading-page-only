@@ -1,3 +1,4 @@
+
 import "./Footer.css";
 
 function Footer() {
@@ -8,11 +9,15 @@ function Footer() {
 
         <div className="footer-logo">
 
-          <h1>splunk&gt;</h1>
+          <span className="footer-tag">
+            OBSERVABILITY PLATFORM
+          </span>
+
+          <h1>ASLIM</h1>
 
           <p>
-            The unified security and observability platform
-            helping organizations build digital resilience.
+            A unified platform for monitoring applications,
+            infrastructure and system performance from one place.
           </p>
 
         </div>
@@ -20,42 +25,51 @@ function Footer() {
         <div className="footer-links">
 
           <div className="footer-box">
+
+            <h3>Platform</h3>
+
+            <p>Overview</p>
+            <p>Observability</p>
+            <p>Security</p>
+            <p>Analytics</p>
+            <p>AI Insights</p>
+
+          </div>
+
+          <div className="footer-box">
+
+            <h3>Solutions</h3>
+
+            <p>Cloud Monitoring</p>
+            <p>Infrastructure</p>
+            <p>Log Analytics</p>
+            <p>Incident Management</p>
+            <p>Performance Tracking</p>
+
+          </div>
+
+          <div className="footer-box">
+
+            <h3>Resources</h3>
+
+            <p>Documentation</p>
+            <p>User Guide</p>
+            <p>Developer API</p>
+            <p>Knowledge Base</p>
+            <p>Support</p>
+
+          </div>
+
+          <div className="footer-box">
+
             <h3>Company</h3>
 
-            <p>About Splunk</p>
+            <p>About Us</p>
             <p>Careers</p>
-            <p>Newsroom</p>
             <p>Partners</p>
-            <p>Why Splunk?</p>
-          </div>
+            <p>Contact</p>
+            <p>Help Center</p>
 
-          <div className="footer-box">
-            <h3>Products</h3>
-
-            <p>Free Trials</p>
-            <p>Downloads</p>
-            <p>Pricing</p>
-            <p>Documentation</p>
-            <p>Videos</p>
-          </div>
-
-          <div className="footer-box">
-            <h3>Learn</h3>
-
-            <p>What is SIEM?</p>
-            <p>Observability</p>
-            <p>Metrics</p>
-            <p>Articles</p>
-            <p>Training</p>
-          </div>
-
-          <div className="footer-box">
-            <h3>Contact</h3>
-
-            <p>Contact Sales</p>
-            <p>Contact Us</p>
-            <p>Support</p>
-            <p>Reviews</p>
           </div>
 
         </div>
@@ -67,13 +81,15 @@ function Footer() {
       <div className="footer-bottom">
 
         <p>
-          © 2026 Splunk Clone. All Rights Reserved.
+          © 2026 ASLIM. All Rights Reserved.
         </p>
 
         <div className="footer-menu">
+
           <span>Privacy</span>
           <span>Terms</span>
           <span>Cookies</span>
+
         </div>
 
       </div>
@@ -81,14 +97,14 @@ function Footer() {
       <div className="footer-text">
 
         <p>
-          Splunk is a unified security and observability platform designed to
-          monitor infrastructure, detect threats and analyze machine data across
-          enterprise environments.
+          ASLIM helps teams monitor applications,
+          infrastructure and cloud environments through
+          one unified observability platform.
         </p>
 
         <p>
-          Information displayed on this website is for educational purposes only.
-          This project is created for learning React and frontend development.
+          Designed to improve visibility, simplify monitoring
+          and support reliable day-to-day IT operations.
         </p>
 
       </div>
@@ -98,3 +114,4 @@ function Footer() {
 }
 
 export default Footer;
+

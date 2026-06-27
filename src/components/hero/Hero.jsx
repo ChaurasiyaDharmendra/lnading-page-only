@@ -11,23 +11,22 @@ function Hero() {
         </span>
 
         <h1>
-          Complete data.
+          Turn Machine Data
           <br />
-           <span style={{ color: "orange" }}>
-          AI you can trust.
-           </span>
+          <span style={{ color: "#ff9800" }}>
+            Into Actionable Insights.
+          </span>
         </h1>
 
         <p>
-          Security and observability at enterprise scale.
+          Monitor infrastructure, analyze logs, detect anomalies, and gain
+          real-time visibility across your entire environment from one platform.
         </p>
 
         <div className="hero-buttons">
-
           <button className="primary-btn">
-            Request a demo
+            Explore Platform
           </button>
-
         </div>
 
       </div>
@@ -35,8 +34,8 @@ function Hero() {
       <div className="hero-right">
 
         <img
-          src="/images/hero-dashboard.png"
-          alt="Dashboard"
+          src="/images/hero.png"
+          alt="Observability Platform"
           className="hero-dashboard"
         />
 

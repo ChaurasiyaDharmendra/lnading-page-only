@@ -5,38 +5,44 @@ function AiSection() {
     <section className="ai-section">
 
       <div className="ai-left">
-        <img src="/images/ai-security.png" alt="AI Security" />
+        <img
+          src="/images/ai-security.png"
+          alt="AI Security"
+        />
       </div>
 
       <div className="ai-right">
 
         <span className="ai-tag">
-          AI SECURITY
+          AI INSIGHTS
         </span>
 
         <h2>
-          AI built for
+          Smarter decisions
           <br />
-          observability and
+          with AI-powered
           <br />
-          security
+          analytics
         </h2>
 
         <p>
-          Get complete visibility across your infrastructure with
-          AI-powered monitoring and security analytics. Detect
-          threats faster, reduce operational effort and improve
-          performance using one intelligent platform.
+          Monitor applications, infrastructure, and security events
+          from one platform. AI helps identify unusual activity,
+          highlights important alerts, and provides clear insights
+          so your team can resolve issues faster and keep systems
+          running smoothly.
         </p>
 
         <div className="ai-buttons">
+
           <button className="primary-btn">
-            Discover AI
+            Explore AI
           </button>
 
           <button className="secondary-btn">
             Learn More
           </button>
+
         </div>
 
       </div>
