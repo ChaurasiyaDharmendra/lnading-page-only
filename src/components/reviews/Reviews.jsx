@@ -1,19 +1,21 @@
-
 import "./Reviews.css";
 
 function Reviews() {
   return (
     <section className="reviews">
 
+      <span className="reviews-tag">
+        User Feedback
+      </span>
+
       <h2>
-        What Our
-        <br />
-        Customers Say
+        Feedback From
+        Our Users
       </h2>
 
       <p>
-        See how businesses use our platform to improve system
-        monitoring, security, and overall performance.
+        See how different teams use ASLIM to monitor systems,
+        manage alerts, and improve day-to-day operations.
       </p>
 
       <div className="reviews-row">
@@ -23,15 +25,15 @@ function Reviews() {
           <h3>★★★★★</h3>
 
           <p>
-            "Our team can now monitor applications and system
-            performance from one place. It has made daily
-            operations much easier."
+            "The dashboard is easy to understand and helps us
+            monitor system logs without switching between
+            multiple tools."
           </p>
 
           <h4>Dharmendra Chaurasiya</h4>
 
           <span>
-            Head of IT Operations
+            System Administrator
           </span>
 
         </div>
@@ -41,15 +43,14 @@ function Reviews() {
           <h3>★★★★★</h3>
 
           <p>
-            "The platform helps us identify issues early and
-            keeps our cloud services running smoothly without
-            unnecessary downtime."
+            "We can review alerts and monitor cloud resources
+            from one place, which saves time every day."
           </p>
 
           <h4>Neha Sharma</h4>
 
           <span>
-            Cloud Operations Lead
+            Cloud Engineer
           </span>
 
         </div>
@@ -59,15 +60,14 @@ function Reviews() {
           <h3>★★★★★</h3>
 
           <p>
-            "The dashboard is simple to use and gives our team
-            complete visibility of applications, infrastructure
-            and system health."
+            "The interface is clean, responsive, and simple to
+            use for monitoring applications and servers."
           </p>
 
           <h4>Rahul Mehta</h4>
 
           <span>
-            Infrastructure Manager
+            IT Support Engineer
           </span>
 
         </div>
@@ -79,4 +79,3 @@ function Reviews() {
 }
 
 export default Reviews;
-

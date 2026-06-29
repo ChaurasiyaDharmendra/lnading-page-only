@@ -1,0 +1,161 @@
+.platform-page{
+    width:100%;
+    background:#fff;
+}
+
+.hero-section,
+.overview-section,
+.platform-section,
+.capability-section,
+.growth-section,
+.closing-section{
+    width:96%;
+    max-width:1500px;
+    margin:auto;
+    padding:90px 0;
+}
+
+.hero-section{
+    padding-top:130px;
+}
+
+.hero-section h1{
+    font-size:58px;
+    font-weight:700;
+    line-height:1.2;
+    color:#111827;
+    max-width:900px;
+    margin-bottom:32px;
+}
+
+.hero-section p{
+    max-width:900px;
+    font-size:19px;
+    line-height:2;
+    color:#5a5a5a;
+}
+
+.overview-section{
+    display:flex;
+    justify-content:space-between;
+    gap:80px;
+}
+
+.overview-left,
+.overview-right{
+    flex:1;
+}
+
+.overview-left h2,
+.platform-section h2,
+.capability-section h2,
+.growth-section h2,
+.closing-section h2{
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:28px;
+    color:#111827;
+}
+
+.overview-left p,
+.overview-right p,
+.platform-section p,
+.capability-section p,
+.growth-section p,
+.closing-section p{
+    font-size:18px;
+    line-height:2;
+    color:#666;
+    margin-bottom:20px;
+}
+
+.overview-right h3{
+    font-size:28px;
+    margin-bottom:22px;
+    color:#111827;
+}
+
+.platform-grid{
+    display:flex;
+    gap:50px;
+    margin-top:45px;
+}
+
+.platform-grid div{
+    flex:1;
+}
+
+.platform-grid h3{
+    font-size:26px;
+    margin-bottom:18px;
+    color:#111827;
+}
+
+.platform-grid p{
+    line-height:1.9;
+}
+
+.capability-row{
+    display:flex;
+    gap:50px;
+    margin-top:45px;
+}
+
+.capability-row div{
+    flex:1;
+}
+
+.capability-row h3{
+    font-size:26px;
+    margin-bottom:18px;
+    color:#111827;
+}
+
+.capability-row p{
+    line-height:1.9;
+}
+
+.bg-light{
+    background:#f8f9fb;
+}
+
+.closing-section{
+    background:#eef5ff;
+    padding:80px;
+    border-radius:8px;
+    margin:70px auto;
+}
+
+hr{
+    border:none;
+    border-top:1px solid #e6e6e6;
+    margin:0;
+}
+
+@media(max-width:992px){
+
+.hero-section h1{
+    font-size:42px;
+}
+
+.overview-section,
+.platform-grid,
+.capability-row{
+    flex-direction:column;
+    gap:35px;
+}
+
+.hero-section,
+.overview-section,
+.platform-section,
+.capability-section,
+.growth-section,
+.closing-section{
+    width:90%;
+}
+
+.closing-section{
+    padding:40px 25px;
+}
+
+}

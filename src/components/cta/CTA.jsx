@@ -1,4 +1,3 @@
-
 import "./CTA.css";
 
 function CTA() {
@@ -8,29 +7,29 @@ function CTA() {
       <div className="cta-content">
 
         <span className="cta-tag">
-          GET STARTED
+          Start Today
         </span>
 
         <h2>
-          Build Smarter Operations
+          Manage Security
           <br />
-          With ASLIM
+          From One Dashboard
         </h2>
 
         <p>
-          Monitor your applications, infrastructure and system
-          performance from one platform. Get better visibility,
-          faster insights and reliable operations with ASLIM.
+          Monitor system activity, review security logs, and keep track
+          of important alerts from a single dashboard designed for IT
+          and security teams.
         </p>
 
         <div className="cta-buttons">
 
           <button className="cta-primary">
-            Get Started
+            Open Dashboard
           </button>
 
           <button className="cta-secondary">
-            Request Demo
+            Contact Team
           </button>
 
         </div>
@@ -42,4 +41,3 @@ function CTA() {
 }
 
 export default CTA;
-

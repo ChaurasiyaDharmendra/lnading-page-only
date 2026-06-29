@@ -7,40 +7,39 @@ function PlatformOverview() {
       <div className="platform-left">
 
         <span className="platform-tag">
-          Platform Overview
+          Platform
         </span>
 
         <h2>
-          One Platform.
+          Monitor Everything
           <br />
-          <span>Complete Visibility.</span>
+          <span>From One Dashboard</span>
         </h2>
 
         <p>
-          Bring your infrastructure, applications, logs, metrics, and AI
-          insights together in one unified platform. Monitor performance,
-          detect issues early, and make faster operational decisions with
-          complete visibility across your entire environment.
+          View logs, monitor applications, track infrastructure,
+          and manage security alerts from a single dashboard.
+          ASLIM helps IT teams monitor their systems in one place.
         </p>
 
         <div className="platform-list">
 
-          <div>✓ Real-Time Infrastructure Monitoring</div>
+          <div>✓ Infrastructure Monitoring</div>
 
-          <div>✓ Centralized Log Analytics</div>
+          <div>✓ Log Management</div>
 
-          <div>✓ AI-Powered Operational Insights</div>
+          <div>✓ Security Alerts</div>
 
-          <div>✓ Intelligent Alerts & Incident Response</div>
+          <div>✓ Incident Tracking</div>
 
-          <div>✓ Performance & Resource Analytics</div>
+          <div>✓ Resource Monitoring</div>
 
-          <div>✓ Enterprise-Scale Cloud Observability</div>
+          <div>✓ Cloud Services</div>
 
         </div>
 
         <button className="platform-btn">
-          Explore Platform
+          View Platform
         </button>
 
       </div>
@@ -49,7 +48,7 @@ function PlatformOverview() {
 
         <img
           src="/images/Platform Overview.png"
-          alt="Platform Overview"
+          alt="Platform Dashboard"
           className="platform-image"
         />
 

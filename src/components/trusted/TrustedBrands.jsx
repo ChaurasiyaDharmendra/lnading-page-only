@@ -5,38 +5,38 @@ function TrustedBrands() {
     <section className="trusted">
 
       <span className="trusted-tag">
-        Trusted Across Modern Enterprises
+        Trusted by Growing Businesses
       </span>
 
       <h2>
-        Built for organizations that rely on
-        <span> real-time observability.</span>
+        Helping teams monitor their systems
+        <span> with confidence.</span>
       </h2>
 
       <div className="brands-row">
 
         <div className="brand-item">
-          CloudNova
+          TechVision
         </div>
 
         <div className="brand-item">
-          Nexora Systems
+          SecureNet
         </div>
 
         <div className="brand-item">
-          Vertex Labs
+          NextGen IT
         </div>
 
         <div className="brand-item">
-          DataSphere
+          CloudSync
         </div>
 
         <div className="brand-item">
-          SkyGrid
+          InfoTrack
         </div>
 
         <div className="brand-item">
-          CoreStack
+          SmartOps
         </div>
 
       </div>

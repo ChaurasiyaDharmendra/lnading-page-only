@@ -6,20 +6,20 @@ function Journey() {
 
       <div className="journey-container">
 
-        <p className="journey-tag">
-          HOW IT WORKS
-        </p>
+        <span className="journey-tag">
+          Workflow
+        </span>
 
         <h2>
-          How Our Platform
+          How ASLIM
           <br />
           Works
         </h2>
 
         <p className="journey-text">
-          Our platform helps you collect system data,
-          monitor activity, identify issues and keep
-          your applications running smoothly.
+          ASLIM collects logs and system information, monitors activity,
+          detects security events, and helps teams respond from a single
+          dashboard.
         </p>
 
         <div className="journey-list">
@@ -31,12 +31,12 @@ function Journey() {
             </div>
 
             <h3>
-              Collect Data
+              Collect Logs
             </h3>
 
             <p>
-              Gather logs, metrics and events from
-              applications, servers and cloud services.
+              Receive logs and events from applications,
+              servers, and cloud environments.
             </p>
 
           </div>
@@ -48,12 +48,12 @@ function Journey() {
             </div>
 
             <h3>
-              Monitor Systems
+              Monitor Activity
             </h3>
 
             <p>
-              Track application health and system
-              performance from one dashboard.
+              View system health, alerts, and resource
+              usage from one dashboard.
             </p>
 
           </div>
@@ -65,12 +65,12 @@ function Journey() {
             </div>
 
             <h3>
-              Detect Issues
+              Review Alerts
             </h3>
 
             <p>
-              Find unusual activity and receive alerts
-              before problems become serious.
+              Check unusual events and investigate
+              security alerts quickly.
             </p>
 
           </div>
@@ -82,12 +82,12 @@ function Journey() {
             </div>
 
             <h3>
-              Improve Performance
+              Generate Reports
             </h3>
 
             <p>
-              Use reports and insights to improve
-              reliability and system efficiency.
+              Create reports and review system
+              performance over time.
             </p>
 
           </div>

@@ -4,9 +4,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 70px;
-  padding: 80px 8%;
-  background: #07111f;
+  padding: 75px 7%;
+  gap: 60px;
+  background-color: #07111f;
 }
 
 .hero-left {
@@ -15,103 +15,122 @@
 
 .hero-tag {
   display: inline-block;
-  padding: 10px 18px;
+  padding: 9px 16px;
   border: 1px solid #1fb6ff;
+  border-radius: 25px;
   color: #1fb6ff;
-  border-radius: 30px;
-  font-size: 14px;
-  margin-bottom: 25px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 22px;
+  letter-spacing: 0.5px;
 }
 
 .hero-left h1 {
-  font-size: 60px;
-  line-height: 1.2;
+  font-size: 58px;
+  line-height: 1.15;
   color: #ffffff;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+.hero-highlight {
+  color: #ff9800;
 }
 
 .hero-left p {
-  font-size: 19px;
-  line-height: 1.8;
-  color: #c6d2df;
-  max-width: 600px;
+  max-width: 580px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #c7d3de;
+  margin-bottom: 20px;
+}
+
+.hero-note {
+  font-size: 15px;
+  color: #8fa4b8;
   margin-bottom: 35px;
 }
 
 .hero-buttons {
   display: flex;
-  gap: 20px;
 }
 
 .primary-btn {
-  padding: 16px 34px;
-  background: #00b894;
-  color: white;
+  padding: 15px 32px;
+  background-color: #00b894;
+  color: #fff;
   border: none;
-  border-radius: 8px;
-  font-size: 17px;
+  border-radius: 6px;
+  font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  transition: 0.3s;
+  transition: background-color 0.25s ease;
 }
 
 .primary-btn:hover {
-  background: #009b7b;
+  background-color: #009878;
 }
 
 .hero-right {
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .hero-dashboard {
   width: 100%;
-  max-width: 650px;
-  height: auto;
+  max-width: 620px;
   display: block;
 }
 
 @media (max-width: 992px) {
+
   .hero {
     flex-direction: column;
     text-align: center;
     padding: 60px 6%;
+    gap: 40px;
   }
 
-  .hero-left h1 {
-    font-size: 45px;
-  }
-
-  .hero-left p {
-    margin: 0 auto 30px;
+  .hero-left p,
+  .hero-note {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .hero-buttons {
     justify-content: center;
   }
 
+  .hero-left h1 {
+    font-size: 44px;
+  }
+
   .hero-dashboard {
     max-width: 500px;
-    margin-top: 40px;
   }
+
 }
 
 @media (max-width: 576px) {
+
+  .hero {
+    padding: 50px 5%;
+  }
+
   .hero-left h1 {
-    font-size: 34px;
+    font-size: 32px;
   }
 
   .hero-left p {
     font-size: 16px;
   }
 
+  .hero-note {
+    font-size: 14px;
+  }
+
   .primary-btn {
     width: 100%;
   }
 
-  .hero-dashboard {
-    max-width: 100%;
-  }
 }

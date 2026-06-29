@@ -8,49 +8,54 @@ function Navbar() {
       <div className="navbar-container">
 
         <div className="logo">
-          ASLIM
+          <Link to="/" className="logo-link">
+            ASLIM
+          </Link>
         </div>
 
         <nav className="nav-links">
 
           <div className="nav-item">
-            <span>Platform</span>
+            <Link to="/platform">Platform</Link>
           </div>
 
           <div className="nav-item">
-            <span>Security</span>
+            <Link to="/security">Security</Link>
           </div>
 
           <div className="nav-item">
-            <span>Observability</span>
+            <Link to="/observability">Observability</Link>
           </div>
 
           <div className="nav-item">
-            <span>Industries</span>
+            <Link to="/industries">Industries</Link>
           </div>
 
           <div className="nav-item">
-            <span>Resources</span>
+            <Link to="/resources">Resources</Link>
           </div>
 
           <div className="nav-item">
-            <span>Support</span>
-          </div>
-
-          
-          <div className="nav-item">
-            <Link to="/signup">Sign Up</Link>
-          </div>
-
-          <div className="nav-item">
-            <Link to="/login">Login</Link>
+            <Link to="/support">Support Center</Link>
           </div>
 
         </nav>
 
-        <button className="contact-btn">
-          Contact Sales
-        </button>
+        <div className="nav-actions">
+
+          <Link to="/login" className="login-link">
+            Login
+          </Link>
+
+          <Link to="/signup" className="signup-btn">
+            Sign Up
+          </Link>
+
+          <button className="contact-btn">
+            Contact Sales
+          </button>
+
+        </div>
 
       </div>
 

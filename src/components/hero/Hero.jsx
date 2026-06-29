@@ -7,25 +7,30 @@ function Hero() {
       <div className="hero-left">
 
         <span className="hero-tag">
-          Unified Security & Observability Platform
+          SOC Monitoring Platform
         </span>
 
         <h1>
-          Turn Machine Data
+          Secure Every System
           <br />
-          <span style={{ color: "#ff9800" }}>
-            Into Actionable Insights.
+          <span className="hero-highlight">
+            From One Dashboard
           </span>
         </h1>
 
         <p>
-          Monitor infrastructure, analyze logs, detect anomalies, and gain
-          real-time visibility across your entire environment from one platform.
+          Monitor security events, review system logs, and track important
+          activities from a single dashboard. Stay informed with live updates
+          and quickly respond to potential threats.
+        </p>
+
+        <p className="hero-note">
+          Built for security teams, IT administrators, and modern organizations.
         </p>
 
         <div className="hero-buttons">
           <button className="primary-btn">
-            Explore Platform
+            Open Dashboard
           </button>
         </div>
 
@@ -35,7 +40,7 @@ function Hero() {
 
         <img
           src="/images/hero.png"
-          alt="Observability Platform"
+          alt="SOC Dashboard Preview"
           className="hero-dashboard"
         />
 

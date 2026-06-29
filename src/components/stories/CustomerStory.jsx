@@ -4,27 +4,37 @@ function CustomerStories() {
   return (
     <section className="stories">
 
-      <h2>Trusted by Teams Across Different Industries</h2>
+      <span className="story-tag">
+        Customer Story
+      </span>
+
+      <h2>
+        Helping Teams Improve
+        <br />
+        Security Monitoring
+      </h2>
 
       <div className="story-box">
 
         <div className="story-text">
 
           <p>
-            "This platform has made it easier for our team to monitor
-            applications, track system performance, and respond to
-            issues quickly. Having everything in one place has improved
-            our daily operations and reduced downtime."
+            "After using this dashboard, our team can check system logs,
+            monitor alerts, and review important events from one place.
+            This has simplified our daily monitoring process and helped
+            us respond to incidents more quickly."
           </p>
 
-          <h3>Dharmendra Chaurasiya</h3>
+          <h3>Dharmendra Chaurasiya </h3>
 
-          <span>Head of IT Operations</span>
+          <span>IT Operations Manager</span>
 
           <br />
           <br />
 
-          <button>Read Case Study</button>
+          <button className="story-btn">
+            View Case Study
+          </button>
 
         </div>
 
@@ -32,22 +42,22 @@ function CustomerStories() {
 
           <div className="box">
             <h3>72%</h3>
-            <p>Faster Issue Resolution</p>
+            <p>Issue Resolution Time</p>
           </div>
 
           <div className="box">
             <h3>99.9%</h3>
-            <p>Service Availability</p>
+            <p>System Availability</p>
           </div>
 
           <div className="box">
             <h3>500+</h3>
-            <p>Systems Monitored</p>
+            <p>Connected Devices</p>
           </div>
 
           <div className="box">
             <h3>24/7</h3>
-            <p>Platform Monitoring</p>
+            <p>Security Monitoring</p>
           </div>
 
         </div>

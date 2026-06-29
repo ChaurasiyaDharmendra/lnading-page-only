@@ -1,0 +1,104 @@
+.support-page{
+    width:100%;
+    background:#fff;
+}
+
+.support-hero,
+.support-intro,
+.support-faq,
+.support-contact{
+    width:96%;
+    max-width:1550px;
+    margin:auto;
+    padding:90px 0;
+}
+
+.support-hero{
+    padding-top:130px;
+}
+
+.support-hero h1{
+    font-size:54px;
+    line-height:1.2;
+    color:#111;
+    margin-bottom:25px;
+}
+
+.support-hero p{
+    width:75%;
+    font-size:18px;
+    line-height:1.9;
+    color:#555;
+}
+
+.support-intro{
+    display:flex;
+    gap:80px;
+}
+
+.support-intro div{
+    flex:1;
+}
+
+.support-intro h2,
+.support-contact h2{
+    font-size:34px;
+    margin-bottom:18px;
+}
+
+.support-intro p,
+.support-contact p{
+    line-height:1.9;
+    color:#555;
+}
+
+.support-faq{
+    display:flex;
+    gap:40px;
+}
+
+.support-faq div{
+    flex:1;
+}
+
+.support-faq h3{
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.support-faq p{
+    line-height:1.8;
+    color:#666;
+}
+
+.support-contact{
+    background:#f8f9fb;
+    padding:70px;
+}
+
+hr{
+    border:none;
+    border-top:1px solid #e5e5e5;
+    margin:0;
+}
+
+@media(max-width:992px){
+
+.support-intro,
+.support-faq{
+    flex-direction:column;
+}
+
+.support-hero h1{
+    font-size:42px;
+}
+
+.support-hero p{
+    width:100%;
+}
+
+.support-contact{
+    padding:40px 25px;
+}
+
+}

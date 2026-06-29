@@ -5,42 +5,41 @@ function AiSection() {
     <section className="ai-section">
 
       <div className="ai-left">
+
         <img
           src="/images/ai-security.png"
-          alt="AI Security"
+          alt="AI Dashboard"
+          className="ai-image"
         />
+
       </div>
 
       <div className="ai-right">
 
         <span className="ai-tag">
-          AI INSIGHTS
+          AI Monitoring
         </span>
 
         <h2>
-          Smarter decisions
+          Detect Security
           <br />
-          with AI-powered
-          <br />
-          analytics
+          Events Faster
         </h2>
 
         <p>
-          Monitor applications, infrastructure, and security events
-          from one platform. AI helps identify unusual activity,
-          highlights important alerts, and provides clear insights
-          so your team can resolve issues faster and keep systems
-          running smoothly.
+          Use AI to monitor logs, identify unusual activity, and review
+          security alerts from one dashboard. This helps your team
+          understand system activity and respond to issues more quickly.
         </p>
 
         <div className="ai-buttons">
 
           <button className="primary-btn">
-            Explore AI
+            View AI Dashboard
           </button>
 
           <button className="secondary-btn">
-            Learn More
+            Read More
           </button>
 
         </div>

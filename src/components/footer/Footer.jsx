@@ -1,4 +1,3 @@
-
 import "./Footer.css";
 
 function Footer() {
@@ -10,14 +9,14 @@ function Footer() {
         <div className="footer-logo">
 
           <span className="footer-tag">
-            OBSERVABILITY PLATFORM
+            Security Dashboard
           </span>
 
           <h1>ASLIM</h1>
 
           <p>
-            A unified platform for monitoring applications,
-            infrastructure and system performance from one place.
+            Monitor security events, system logs, and infrastructure
+            from one dashboard.
           </p>
 
         </div>
@@ -28,23 +27,21 @@ function Footer() {
 
             <h3>Platform</h3>
 
-            <p>Overview</p>
-            <p>Observability</p>
+            <p>Dashboard</p>
             <p>Security</p>
             <p>Analytics</p>
-            <p>AI Insights</p>
+            <p>Monitoring</p>
 
           </div>
 
           <div className="footer-box">
 
-            <h3>Solutions</h3>
+            <h3>Services</h3>
 
-            <p>Cloud Monitoring</p>
+            <p>Cloud</p>
             <p>Infrastructure</p>
-            <p>Log Analytics</p>
-            <p>Incident Management</p>
-            <p>Performance Tracking</p>
+            <p>Logs</p>
+            <p>Incidents</p>
 
           </div>
 
@@ -53,9 +50,8 @@ function Footer() {
             <h3>Resources</h3>
 
             <p>Documentation</p>
-            <p>User Guide</p>
-            <p>Developer API</p>
-            <p>Knowledge Base</p>
+            <p>Guides</p>
+            <p>API</p>
             <p>Support</p>
 
           </div>
@@ -64,11 +60,10 @@ function Footer() {
 
             <h3>Company</h3>
 
-            <p>About Us</p>
+            <p>About</p>
             <p>Careers</p>
-            <p>Partners</p>
             <p>Contact</p>
-            <p>Help Center</p>
+            <p>Help</p>
 
           </div>
 
@@ -81,7 +76,7 @@ function Footer() {
       <div className="footer-bottom">
 
         <p>
-          © 2026 ASLIM. All Rights Reserved.
+          © 2026 ASLIM. All rights reserved.
         </p>
 
         <div className="footer-menu">
@@ -94,24 +89,8 @@ function Footer() {
 
       </div>
 
-      <div className="footer-text">
-
-        <p>
-          ASLIM helps teams monitor applications,
-          infrastructure and cloud environments through
-          one unified observability platform.
-        </p>
-
-        <p>
-          Designed to improve visibility, simplify monitoring
-          and support reliable day-to-day IT operations.
-        </p>
-
-      </div>
-
     </footer>
   );
 }
 
 export default Footer;
-
